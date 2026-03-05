@@ -2,6 +2,8 @@
 + 本地配置es环境,学习es的基础操作
 + 掌握示例RAG项目代码
 
+---
+
 ### ES
 
 这部分详细的过程见[ES基础练习](https://github.com/Birchove/ai_learning/blob/main/%E7%8E%8B%E5%85%86%E7%82%AB/week06/ES%E5%9F%BA%E7%A1%80%E7%BB%83%E4%B9%A0.md)
@@ -37,9 +39,11 @@
 
 必须在后台运行 elasticsearch.bat 是因为 Elasticsearch 是一个独立的服务（JVM 进程 + HTTP API）, Python 的 elasticsearch 客户端只是一个 HTTP 客户端——它不会自己“启动”数据库进程。 只有服务在运行并监听（默认 http://localhost:9200），Python 客户端才能连接并执行查询/写入。
 
+---
 
+### RAG练习
 
+这部分内容见[RAG练习](https://github.com/Birchove/ai_learning/blob/main/%E7%8E%8B%E5%85%86%E7%82%AB/week06/RAG%E7%BB%83%E4%B9%A0.md)
 
-
-
+从R,A,G,即检索,增强,生成,逐步给出了对应的py文件以及作用,最终实现了完整的RAG问答流程
 
