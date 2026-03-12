@@ -1,4 +1,4 @@
-在`main.py`中,Trainer类下,Train函数中有这样一段代码:
+在`main.py`中,Trainer类下,Train函数中有这样一段代码: 
 
 `loss = seq_loss + token_loss`
 
