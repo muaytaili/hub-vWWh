@@ -30,3 +30,13 @@
 此处要求为 -> 对原始dify中体脂建议应用进行改进，增加一个用户年龄的输入，让应用给出的建议更加完整
 
 我们只需在输入变量,LLM传参,模板转换中均增加一个age变量,让LLM重新整合输出即可
+
+注意这个细节 -> 不同年龄体脂率计算公式是不同的,所以我们需要在计算公式中修改公式,增加年龄的计算
+
+公式如下:
+<img width="557" height="166" alt="image" src="https://github.com/user-attachments/assets/3f909627-3b7a-4de5-89bc-e18359442b99" />
+
+修改完毕即可得到新的workflow
+
+<img width="2226" height="1246" alt="image" src="https://github.com/user-attachments/assets/f74a659c-d68e-4730-b3da-c84bb2dd0f73" />
+
