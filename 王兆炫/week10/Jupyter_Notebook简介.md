@@ -20,3 +20,12 @@ Jupyter Notebook 是一个开源的Web应用程序，用于创建和共享包含
 | 适用 | 项目、脚本、部署 | 学习、实验、展示、带图的分析等富文本需求 |
 
 
+打开对应conda环境后,执行以下代码安装Jupyter notebook
+```bash
+pip install jupyter notebook
+```
+
+使用如下命令运行jupyter notebook (会在默认浏览器里打开)
+```bash
+pip install jupyter notebook
+```
