@@ -27,6 +27,9 @@ Jupyter Notebook 是一个开源的Web应用程序，用于创建和共享包含
 pip install jupyter notebook
 ```
 
+可以直接在本地ide中使用jupyter扩展打开,
+
+也可以在终端中
 使用如下命令运行jupyter notebook (会在默认浏览器里打开)
 ```bash
 jupyter notebook
