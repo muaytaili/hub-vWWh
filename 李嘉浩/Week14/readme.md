@@ -1,0 +1,1 @@
+使用langchain +vllm 本地部署reranker与embedding
